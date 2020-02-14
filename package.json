@@ -23,7 +23,8 @@
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@expo/webpack-config": "^0.11.1",
-    "babel-preset-expo": "~8.0.0"
+    "babel-preset-expo": "~8.0.0",
+    "gh-pages": "^2.2.0"
   },
   "private": true
 }
