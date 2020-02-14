@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, TouchableOpacity, StyleSheet } from 'react-native';
 
-export default function Button(props) {
+export default Button = (props) => {
   const { text, icon, textColor, backgroundColor, onPress } = props;
   const color = textColor || 'white';
   return (

@@ -1,27 +1,25 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import Button from './components/Button'
+import { ApolloClient } from 'apollo-client';
+import { ApolloProvider } from '@apollo/react-hooks';
+import { InMemoryCache } from 'apollo-cache-inmemory';
+import { HttpLink } from 'apollo-link-http';
+import Prompt from './components/Prompt';
 
-export default function App() {
+const BASE_URL = 'https://floating-thicket-10292.herokuapp.com/';
+
+const httpLink = new HttpLink({
+  uri: BASE_URL
+});
+
+const client = new ApolloClient({
+  link: httpLink,
+  cache: new InMemoryCache()
+});
+
+export default App = () => {
   return (
-    <View style={styles.container}>
-			<Button
-				text="Next"
-				textColor="#161616"
-				backgroundColor="#d3d3d3"
-        onPress={() =>
-          console.log("Pressed button!")
-        }
-				/>
-    </View>
+    <ApolloProvider client={client}>
+      <Prompt />
+    </ApolloProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
