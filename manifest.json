@@ -1,0 +1,12 @@
+{
+  "background_color": "#ffffff",
+  "dir": "auto",
+  "display": "standalone",
+  "lang": "en",
+  "name": "lla'ec",
+  "orientation": "portrait",
+  "prefer_related_applications": true,
+  "related_applications": [],
+  "short_name": "lla'ec",
+  "start_url": "."
+}
