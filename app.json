@@ -3,7 +3,7 @@
     "name": "lla-ec",
     "slug": "lla-ec",
     "privacy": "public",
-    "sdkVersion": "36.0.0",
+		"sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android",
@@ -24,7 +24,13 @@
       "**/*"
     ],
     "ios": {
+			"bundleIdentifier": "com.lla.llaec",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
+		},
+		"android": {
+      "package": "com.lla.llaec",
+      "versionCode": 1
     }
   }
 }
