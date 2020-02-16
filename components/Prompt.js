@@ -16,11 +16,16 @@ const PROMPT_QUERY = gql`
 
 const Prompt = () => {
 	const { loading, data, refetch } = useQuery(PROMPT_QUERY);
+	
 	useEffect(() => {
     refetch();
-  }, []);
+	}, []);
+	
 	return (
 		<View style={styles.container}>
+			<View style={styles.headerStyle}>
+				<Text style={styles.textHeaderStyle}>LLA Hello World!</Text>
+			</View>
 			{!loading && data && data.prompt && ( 
 			<Text style={styles.prompt}>{data.prompt.title}</Text>
 			)}
@@ -39,16 +44,29 @@ const Prompt = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+		flex: 1,
+		flexDirection: 'column',
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
 	},
 	prompt: {
 		fontSize: 24,
 		color: 'black',
-		textAlign: 'center'
-	}
+		textAlign: 'center',
+		padding: 12
+	},
+	headerStyle: {
+    width: '100%',
+    height: 50,
+		backgroundColor: 'red',
+		marginTop: 28
+	},
+	textHeaderStyle: {
+    textAlign: 'center',
+    color: 'white',
+    fontSize: 18,
+    padding: 12
+  }
 });
 
 export default Prompt;
