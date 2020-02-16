@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, TouchableOpacity, StyleSheet } from 'react-native';
 
-export default Button = (props) => {
+const Button = (props) => {
   const { text, icon, textColor, backgroundColor, onPress } = props;
   const color = textColor || 'white';
   return (
@@ -40,3 +40,5 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end'
   }
 });
+
+export default Button;

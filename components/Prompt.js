@@ -14,7 +14,7 @@ const PROMPT_QUERY = gql`
 	}
 `;
 
-export default Prompt = () => {
+const Prompt = () => {
 	const { loading, data, refetch } = useQuery(PROMPT_QUERY);
 	useEffect(() => {
     refetch();
@@ -50,3 +50,5 @@ const styles = StyleSheet.create({
 		textAlign: 'center'
 	}
 });
+
+export default Prompt;
