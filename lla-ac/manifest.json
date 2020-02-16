@@ -1,0 +1,22 @@
+{
+  "background_color": "#ffffff",
+  "dir": "auto",
+  "display": "standalone",
+  "lang": "en",
+  "name": "lla-ec",
+  "orientation": "portrait",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "id": "com.lla.llaec"
+    },
+    {
+      "platform": "play",
+      "url": "http://play.google.com/store/apps/details?id=com.lla.llaec",
+      "id": "com.lla.llaec"
+    }
+  ],
+  "short_name": "lla-ec",
+  "start_url": "."
+}
