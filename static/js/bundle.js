@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "9e03cbdfb33888e4e117";
+/******/ 	var hotCurrentHash = "33e1221976d7c88321db";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -9742,7 +9742,7 @@ const stdoutColor = __webpack_require__(/*! supports-color */ "../../../supports
 
 const template = __webpack_require__(/*! ./templates.js */ "../../../chalk/templates.js");
 
-const isSimpleWindowsTerm = process.platform === 'win32' && !(Object({"NODE_ENV":"development","PUBLIC_URL":"","APP_MANIFEST":{"name":"lla-ec","slug":"lla-ec","privacy":"public","sdkVersion":"36.0.0","platforms":["ios","android","web"],"version":"1.0.0","orientation":"portrait","icon":"./assets/icon.png","splash":{"image":"./assets/splash.png","resizeMode":"contain","backgroundColor":"#ffffff"},"updates":{"fallbackToCacheTimeout":0},"assetBundlePatterns":["**/*"],"web":{"background_color":"#ffffff","dir":"auto","display":"standalone","lang":"en","name":"lla-ec","orientation":"portrait","prefer_related_applications":true,"related_applications":[{"platform":"itunes","id":"com.lla.llaec"},{"platform":"play","url":"http://play.google.com/store/apps/details?id=com.lla.llaec","id":"com.lla.llaec"}],"short_name":"lla-ec","start_url":"."}}}).TERM || '').toLowerCase().startsWith('xterm');
+const isSimpleWindowsTerm = process.platform === 'win32' && !(Object({"NODE_ENV":"development","PUBLIC_URL":"","APP_MANIFEST":{"name":"lla-ec","slug":"lla-ec","privacy":"public","sdkVersion":"36.0.0","platforms":["ios","android","web"],"version":"1.0.0","orientation":"portrait","icon":"./assets/icon.png","splash":{"image":"./assets/splash.png","resizeMode":"contain","backgroundColor":"#ffffff"},"updates":{"fallbackToCacheTimeout":0},"assetBundlePatterns":["**/*"],"web":{}}}).TERM || '').toLowerCase().startsWith('xterm');
 
 // `supportsColor.level` → `ansiStyles.color[name]` mapping
 const levelMapping = ['ansi', 'ansi', 'ansi256', 'ansi16m'];
@@ -13866,7 +13866,7 @@ var _sessionId = uuid_v4__WEBPACK_IMPORTED_MODULE_3___default()();
   },
 
   get manifest() {
-    return {"name":"lla-ec","slug":"lla-ec","privacy":"public","sdkVersion":"36.0.0","platforms":["ios","android","web"],"version":"1.0.0","orientation":"portrait","icon":"./assets/icon.png","splash":{"image":"./assets/splash.png","resizeMode":"contain","backgroundColor":"#ffffff"},"updates":{"fallbackToCacheTimeout":0},"assetBundlePatterns":["**/*"],"web":{"background_color":"#ffffff","dir":"auto","display":"standalone","lang":"en","name":"lla-ec","orientation":"portrait","prefer_related_applications":true,"related_applications":[{"platform":"itunes","id":"com.lla.llaec"},{"platform":"play","url":"http://play.google.com/store/apps/details?id=com.lla.llaec","id":"com.lla.llaec"}],"short_name":"lla-ec","start_url":"."}} || {};
+    return {"name":"lla-ec","slug":"lla-ec","privacy":"public","sdkVersion":"36.0.0","platforms":["ios","android","web"],"version":"1.0.0","orientation":"portrait","icon":"./assets/icon.png","splash":{"image":"./assets/splash.png","resizeMode":"contain","backgroundColor":"#ffffff"},"updates":{"fallbackToCacheTimeout":0},"assetBundlePatterns":["**/*"],"web":{}} || {};
   },
 
   get experienceUrl() {
@@ -67238,7 +67238,7 @@ function load() {
 
 
   if (!r && typeof process !== 'undefined' && 'env' in process) {
-    r = Object({"NODE_ENV":"development","PUBLIC_URL":"","APP_MANIFEST":{"name":"lla-ec","slug":"lla-ec","privacy":"public","sdkVersion":"36.0.0","platforms":["ios","android","web"],"version":"1.0.0","orientation":"portrait","icon":"./assets/icon.png","splash":{"image":"./assets/splash.png","resizeMode":"contain","backgroundColor":"#ffffff"},"updates":{"fallbackToCacheTimeout":0},"assetBundlePatterns":["**/*"],"web":{"background_color":"#ffffff","dir":"auto","display":"standalone","lang":"en","name":"lla-ec","orientation":"portrait","prefer_related_applications":true,"related_applications":[{"platform":"itunes","id":"com.lla.llaec"},{"platform":"play","url":"http://play.google.com/store/apps/details?id=com.lla.llaec","id":"com.lla.llaec"}],"short_name":"lla-ec","start_url":"."}}}).DEBUG;
+    r = Object({"NODE_ENV":"development","PUBLIC_URL":"","APP_MANIFEST":{"name":"lla-ec","slug":"lla-ec","privacy":"public","sdkVersion":"36.0.0","platforms":["ios","android","web"],"version":"1.0.0","orientation":"portrait","icon":"./assets/icon.png","splash":{"image":"./assets/splash.png","resizeMode":"contain","backgroundColor":"#ffffff"},"updates":{"fallbackToCacheTimeout":0},"assetBundlePatterns":["**/*"],"web":{}}}).DEBUG;
   }
 
   return r;
@@ -70096,4 +70096,4 @@ module.exports = __webpack_require__(/*! /Users/humbertomangino/Documents/react-
 /***/ })
 
 /******/ });
-//# sourceMappingURL=../../94aceaa63042a08eba3d.map
+//# sourceMappingURL=../../936060af55b932200877.map
