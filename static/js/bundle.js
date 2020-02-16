@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "f0f1f4574822fccee848";
+/******/ 	var hotCurrentHash = "9e03cbdfb33888e4e117";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2271,11 +2271,14 @@ var client = new apollo_client__WEBPACK_IMPORTED_MODULE_1__["ApolloClient"]({
   link: httpLink,
   cache: new apollo_cache_inmemory__WEBPACK_IMPORTED_MODULE_3__["InMemoryCache"]()
 });
-/* harmony default export */ __webpack_exports__["default"] = (App = function App() {
+
+var App = function App() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_apollo_react_hooks__WEBPACK_IMPORTED_MODULE_2__["ApolloProvider"], {
     client: client
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Prompt__WEBPACK_IMPORTED_MODULE_5__["default"], null));
-});
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
 
 /***/ }),
 
@@ -2299,7 +2302,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (Button = function Button(props) {
+
+var Button = function Button(props) {
   var text = props.text,
       icon = props.icon,
       textColor = props.textColor,
@@ -2320,7 +2324,8 @@ __webpack_require__.r(__webpack_exports__);
       color: color
     }, styles.buttonText]
   }, text)));
-});
+};
+
 var styles = react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_4__["default"].create({
   wrapper: {
     padding: 25,
@@ -2341,6 +2346,7 @@ var styles = react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_4
     justifyContent: 'flex-end'
   }
 });
+/* harmony default export */ __webpack_exports__["default"] = (Button);
 
 /***/ }),
 
@@ -2384,7 +2390,8 @@ function _templateObject() {
 
 
 var PROMPT_QUERY = graphql_tag__WEBPACK_IMPORTED_MODULE_7___default()(_templateObject());
-/* harmony default export */ __webpack_exports__["default"] = (Prompt = function Prompt() {
+
+var Prompt = function Prompt() {
   var _useQuery = Object(_apollo_react_hooks__WEBPACK_IMPORTED_MODULE_6__["useQuery"])(PROMPT_QUERY),
       loading = _useQuery.loading,
       data = _useQuery.data,
@@ -2405,7 +2412,8 @@ var PROMPT_QUERY = graphql_tag__WEBPACK_IMPORTED_MODULE_7___default()(_templateO
       refetch();
     }
   }));
-});
+};
+
 var styles = react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_2__["default"].create({
   container: {
     flex: 1,
@@ -2419,6 +2427,7 @@ var styles = react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_2
     textAlign: 'center'
   }
 });
+/* harmony default export */ __webpack_exports__["default"] = (Prompt);
 
 /***/ }),
 
@@ -70087,4 +70096,4 @@ module.exports = __webpack_require__(/*! /Users/humbertomangino/Documents/react-
 /***/ })
 
 /******/ });
-//# sourceMappingURL=../../ab0c2edef84b58cc14ee.map
+//# sourceMappingURL=../../94aceaa63042a08eba3d.map
