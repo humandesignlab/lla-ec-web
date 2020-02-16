@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "c507b0b3434dcf5dc77f",
-    "url": "/lla-ec/static/js/app.0a8600b6.chunk.js"
+    "revision": "8c9c158ef5cb42efc7a0",
+    "url": "/lla-ec/static/js/app.7333c50c.chunk.js"
   },
   {
     "revision": "00d9231f5f9500f633fb",
     "url": "/lla-ec/static/js/runtime~app.24b4cd0a.js"
   },
   {
-    "revision": "c06942062760e27695fc",
-    "url": "/lla-ec/static/js/2.6a09c1df.chunk.js"
+    "revision": "2a5c3cb554d31ebc79f9",
+    "url": "/lla-ec/static/js/2.b327f1e2.chunk.js"
   },
   {
     "revision": "d0c694b562b2208635f250762cd7fc79",
@@ -88,12 +88,12 @@ self.__precacheManifest = [
     "url": "/lla-ec/apple/splash/icon_828x1792.png"
   },
   {
-    "revision": "56bc5b4244896a7093724be58e74a373",
+    "revision": "3b9b82ff5c55541809fb2761f15395f9",
     "url": "/lla-ec/index.html"
   },
   {
-    "revision": "eb356651e776c9b79b50b68006c89fcf",
-    "url": "/lla-ec/static/js/app.0a8600b6.chunk.js.gz"
+    "revision": "41e54c91454ecad9658b2842cfd7c141",
+    "url": "/lla-ec/static/js/app.7333c50c.chunk.js.gz"
   },
   {
     "revision": "a1f32e07558ae7ab14bc4dc1c71a89da",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/lla-ec/expo-service-worker.js.gz"
   },
   {
-    "revision": "0e459cd994e71dacb96de6af5da2af81",
-    "url": "/lla-ec/static/js/2.6a09c1df.chunk.js.gz"
+    "revision": "1b595ee1b711adaf4a9255d646759e8d",
+    "url": "/lla-ec/static/js/2.b327f1e2.chunk.js.gz"
   }
 ];
